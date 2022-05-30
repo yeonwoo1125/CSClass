@@ -44,6 +44,8 @@ namespace CSClass
             Console.WriteLine(Math.Round(4543.1327,4));
             Console.WriteLine(Math.Max(4,6));
             Console.WriteLine(Math.Min(435,234));
+
+            Product product = new Product();
         }
     }
 }
