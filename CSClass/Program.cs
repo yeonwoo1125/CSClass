@@ -36,6 +36,14 @@ namespace CSClass
             {
                 Console.WriteLine(i);
             }
+
+            Console.WriteLine(Math.Abs(-23421));
+            Console.WriteLine(Math.Ceiling(4.3333));
+            Console.WriteLine(Math.Floor(5434.34343));
+            Console.WriteLine(Math.Round(4543.1324));
+            Console.WriteLine(Math.Round(4543.1327,4));
+            Console.WriteLine(Math.Max(4,6));
+            Console.WriteLine(Math.Min(435,234));
         }
     }
 }
