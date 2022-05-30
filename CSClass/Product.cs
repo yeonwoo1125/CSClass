@@ -2,8 +2,5 @@
 {
     internal class Product
     {
-        public Product()
-        {
-        }
     }
 }
