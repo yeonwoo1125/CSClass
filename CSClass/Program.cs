@@ -45,7 +45,13 @@ namespace CSClass
             Console.WriteLine(Math.Max(4,6));
             Console.WriteLine(Math.Min(435,234));
 
-            Product product = new Product();
+/*            Product product = new Product();
+            product.name = "고구마";
+            product.price = 6000;*/
+
+            Product product = new Product() {name="고구마",price=2000 };
+
+            Console.WriteLine(product.ToString());
         }
     }
 }
