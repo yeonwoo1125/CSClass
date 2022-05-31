@@ -52,6 +52,34 @@ namespace CSClass
             Product product = new Product() {name="고구마",price=2000 };
 
             Console.WriteLine(product.ToString());
+
+            List<Student> students = new List<Student>()
+            {
+            new Student() { name = "가연우1", grade = 100 },
+            new Student() { name = "가연우2", grade = 99 },
+            new Student() { name = "가연우3", grade = 98 },
+            new Student() { name = "가연우4", grade = 97 },
+            new Student() { name = "가연우5", grade = 45 },
+            new Student() { name = "가연우6", grade = 12 },
+            new Student() { name = "가연우7", grade = 56 },
+            new Student() { name = "가연우8", grade = 80 },
+            new Student() { name = "가연우9", grade = 43 },
+            new Student() { name = "가연우10", grade = 3}
+            };
+
+
+
+
+            for (int i = students.Count - 1; i >= 0; i --) {
+                if (students[i].grade >= 60) { 
+                    students.RemoveAt(i);
+                }
+            }
+            foreach (Student student in students)
+            {
+                Console.WriteLine(student.ToString());
+            }
+
         }
     }
 }
