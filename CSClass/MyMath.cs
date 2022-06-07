@@ -8,6 +8,10 @@ namespace CSClass
         {
             return (v<0) ? -1 : v;
         }
+        public static double Abs(double v)
+        {
+            return (v < 0) ? -1 : v;
+        }
 
         void foo() 
         {
