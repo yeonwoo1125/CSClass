@@ -80,6 +80,8 @@ namespace CSClass
                 Console.WriteLine(student.ToString());
             }
 
+            Console.WriteLine(MyMath.Abs(52));
+            Console.WriteLine(MyMath.Abs(-52));
         }
     }
 }
