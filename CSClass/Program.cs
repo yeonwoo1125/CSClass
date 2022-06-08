@@ -97,6 +97,8 @@ namespace CSClass
             Console.WriteLine("두번째 위치");
             Sample sample = new Sample();
             Console.WriteLine("세번째 위치");  
+
+            Product product3 = new Product("과자",1500);
         }
     }
 }
