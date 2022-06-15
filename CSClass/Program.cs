@@ -104,6 +104,8 @@ namespace CSClass
             box.Width = 10;
             box.Height = 100;
             Console.Write(box.Area);
+
+            Fibonachi.Get(20);
         }
     }
 }
