@@ -8,6 +8,7 @@ namespace CSClass
 {
      class Program
     {
+        public static int number = 10;
         static void Main(string[] args)
         {
             /*Car car = new Car();
@@ -106,6 +107,31 @@ namespace CSClass
             Console.Write(box.Area);
 
             Fibonachi.Get(20);
+
+            Cat c = new Cat();
+            Dog d = new Dog();
+
+            List<Dog> dogs = new List<Dog>() {new Dog(), new Dog(), new Dog() };
+            List<Cat> cats = new List<Cat>() {new Cat(), new Cat(), new Cat() };
+
+            foreach (var item in dogs) 
+            {
+                item.Eat();
+                item.Sleep();
+                item.Bark();
+            }
+
+            foreach (var item in cats)
+            {
+                item.Eat();
+                item.Sleep();
+                item.Meow();
+            }
+
+            //Shadowing
+            int number = 20;
+            Console.Write(number);
+
         }
     }
 }
